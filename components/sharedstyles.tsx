@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Image from 'next/image'
 
 const Container = styled.div`
   padding: 0 0.5rem;
@@ -41,6 +42,11 @@ const Description = styled.p`
   line-height: 1.5;
   font-size: 1.5rem;
 `
+
+const ImageWrapper = styled(Image)`
+  margin-top: 15px;
+`
+
 const CodeTag = styled.code`
   background: #fafafa;
   border-radius: 5px;
@@ -51,4 +57,4 @@ const CodeTag = styled.code`
     Bitstream Vera Sans Mono, Courier New, monospace;
 `
 
-export { Container, Main, Title, Description, CodeTag }
+export { Container, Main, Title, Description, CodeTag, ImageWrapper }
