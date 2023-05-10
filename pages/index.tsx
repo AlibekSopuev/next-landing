@@ -1,13 +1,13 @@
-import Head from 'next/head'
+import Head from "next/head";
 import {
   Container,
   Main,
   Title,
   Description,
   CodeTag,
-  StyledImage
-} from '../components/sharedstyles'
-import Cards from '../components/cards'
+  StyledImage,
+} from "../components/sharedstyles";
+import Cards from "../components/cards";
 
 export default function Home() {
   return (
@@ -21,22 +21,33 @@ export default function Home() {
         <Title>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </Title>
-
         <StyledImage
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
+          src="/next.svg"
+          alt="Next.js Logo"
+          width={180}
+          height={37}
+          priority
         />
-
+        <StyledImage
+          src="/price.svg"
+          alt="Next.js Logo"
+          width={180}
+          height={37}
+          priority
+        />
+        <StyledImage
+          src="/logo.svg"
+          alt="DCB Green"
+          width={180}
+          height={37}
+          priority
+        />
         <Description>
           Get started by editing
           <CodeTag>pages/index.tsx</CodeTag>
         </Description>
-
         <Cards />
       </Main>
     </Container>
-  )
+  );
 }
