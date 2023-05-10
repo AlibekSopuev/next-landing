@@ -43,8 +43,8 @@ const Description = styled.p`
   font-size: 1.5rem;
 `
 
-const ImageWrapper = styled(Image)`
-  margin-top: 15px;
+const StyledImage = styled(Image)`
+  margin-top: 55px;
 `
 
 const CodeTag = styled.code`
@@ -57,4 +57,4 @@ const CodeTag = styled.code`
     Bitstream Vera Sans Mono, Courier New, monospace;
 `
 
-export { Container, Main, Title, Description, CodeTag, ImageWrapper }
+export { Container, Main, Title, Description, CodeTag, StyledImage }

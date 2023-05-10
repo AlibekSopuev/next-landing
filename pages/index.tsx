@@ -5,7 +5,7 @@ import {
   Title,
   Description,
   CodeTag,
-  ImageWrapper
+  StyledImage
 } from '../components/sharedstyles'
 import Cards from '../components/cards'
 
@@ -22,7 +22,7 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </Title>
 
-        <ImageWrapper
+        <StyledImage
             src="/next.svg"
             alt="Next.js Logo"
             width={180}
